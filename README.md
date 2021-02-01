@@ -14,5 +14,18 @@ EasyEnsembleClassifier to examine our dataset and predict credit risk.
 
 ## Results
 
+![RandomOverSampler](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/RoS.png "RandomOverSampler")
+
+![SMOTE](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTE.png "SMOTE")
+
+![ClusterCentroids](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/CC.png "ClusterCentroids")
+
+![SMOTEENN](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTEENN.png "SMOTEENN")
+
+![BalancedRandomForest](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/BRF.png "BalancedRandomForestClassifier")
+
+![EasyEnsembleClassifier](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/EEC.png "EasyEnsembleClassifier")
+
+
 ## Summary
 
