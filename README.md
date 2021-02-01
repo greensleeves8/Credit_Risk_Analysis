@@ -14,38 +14,38 @@ EasyEnsembleClassifier to examine our dataset and predict credit risk.
 
 ## Results
 
--Using RandomOverSampler to oversample the loan data and then run logistic regression produced an
+- Using RandomOverSampler to oversample the loan data and then run logistic regression produced an
 accuracy score of 0.647. For high risk loans, the precision was 0.01, and the recall was 0.69. For 
 low risk loans, the precision was 1.0, and the recall was 0.60. The overall precision was 0.99, and 
 the overall recall was 0.60:
 
 ![RandomOverSampler](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/RoS.png "RandomOverSampler")
 
--Using SMOTE to oversample the loan data and then perform logistic regression produced an accuracy
+- Using SMOTE to oversample the loan data and then perform logistic regression produced an accuracy
 score of 0.662. For high risk loans, the precision was 0.01, and the recall was 0.63. For low risk 
 loans, the precision was 1.0, and the recall was 0.69:
 
 ![SMOTE](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTE.png "SMOTE")
 
--The ClusterCentroids method of undersampling produced an accuracy score of 0.544. For high risk loans,
+- The ClusterCentroids method of undersampling produced an accuracy score of 0.544. For high risk loans,
 the precision was 0.01, and the recall was 0.67. For low risk loans, the precision was 1.00, and the 
 recall was 0.42. The overall precision was 0.99, and the recall was 0.42:
 
 ![ClusterCentroids](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/CC.png "ClusterCentroids")
 
--The SMOTEENN method produced an accuracy score of 0.665. For high risk loans, the precision was 0.01, and 
+- The SMOTEENN method produced an accuracy score of 0.665. For high risk loans, the precision was 0.01, and 
 the recall was 0.72. For low risk loans, the precision was 1.0, and the recall was 0.57. The overall 
 precision was 0.99 and the recall was 0.57:
 
 ![SMOTEENN](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/SMOTEENN.png "SMOTEENN")
 
--The BalancedRandomForestClassier produced an accuracy score of 0.789. For high risk loans, the precision was
+- The BalancedRandomForestClassifier produced an accuracy score of 0.789. For high risk loans, the precision was
 0.03, and the recall was 0.70. For low risk loans, the precision was 1.0, and the recall was 0.87. The overall
 precision was 0.99, and the recall was 0.87:
 
 ![BalancedRandomForest](https://github.com/greensleeves8/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/BRF.png "BalancedRandomForestClassifier")
 
--The EasyEnsembleClassier produced an accuracy score of 0.915. For high risk loans, the precision was 0.05, and
+- The EasyEnsembleClassifier produced an accuracy score of 0.915. For high risk loans, the precision was 0.05, and
 the recall was 0.93. For low risk loans, the precision was 1.0, and the recall was 0.90. The overall precision was
 0.99, and the recall was 0.90:
 
